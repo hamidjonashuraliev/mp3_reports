@@ -1,0 +1,110 @@
+
+Data Preprocessinggacha 5 ta Basic Savol
+Basic Questions
+1.
+
+Datasetni modelga berishdan oldin nima uchun analiz qilish kerak?
+
+Javob:
+
+Chunki datasetdagi xatolar, missing values va noto‘g‘ri formatlar model accuracy'siga ta’sir qiladi.
+
+2.
+
+Feature va Target o‘rtasidagi farq nima?
+
+Javob:
+
+Feature — modelga beriladigan input.
+
+Target — model bashorat qiladigan natija.
+
+3.
+
+Missing value nima?
+
+Javob:
+
+Datasetdagi mavjud bo‘lmagan qiymat.
+
+Misol:
+
+Age = NaN
+4.
+
+Categorical data nima?
+
+Javob:
+
+Kategoriya ko‘rinishidagi ma’lumot.
+
+Misol:
+
+Country:
+Korea
+USA
+Japan
+5.
+
+Duplicate data nima uchun xavfli?
+
+Javob:
+
+Model bir xil ma’lumotni ko‘p marta ko‘rib, overfittingga olib kelishi mumkin.
+
+3. Follow Up Savollar
+1.
+
+Agar missing value 50% dan ko‘p bo‘lsa nima qilamiz?
+
+Tahlil:
+
+Column muhim bo‘lmasa o‘chiriladi.
+
+Agar muhim feature bo‘lsa, boshqa usullar ko‘rib chiqiladi.
+
+2.
+
+Nima uchun categorical feature encoding qilinadi?
+
+Javob:
+
+Machine Learning algoritmlari faqat numerical qiymatlar bilan ishlaydi.
+
+Misol:
+
+Korea → 0
+USA → 1
+Japan → 2
+3.
+
+Scaling qachon kerak bo‘ladi?
+
+Javob:
+
+Distance-based algoritmlarda:
+
+KNN
+SVM
+Logistic Regression
+4.
+
+Outlierlarni har doim o‘chirish kerakmi?
+
+Javob:
+
+Yo‘q.
+
+Ba’zi holatlarda outlier muhim signal bo‘lishi mumkin.
+
+5.
+
+Data preprocessing noto‘g‘ri qilinsa nima bo‘ladi?
+
+Javob:
+
+Model:
+
+past accuracy beradi
+noto‘g‘ri pattern o‘rganadi
+real hayotda ishlamaydi
